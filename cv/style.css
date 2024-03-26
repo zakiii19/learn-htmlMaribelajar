@@ -1,0 +1,50 @@
+body {
+    font-family: Plus Jakarta Sans, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .foto {
+    float :left;
+    margin-right: 20px;
+  }
+  
+  .data-diri {
+    margin-top: 20px;
+  }
+  
+  .data-diri ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .data-diri ul li {
+    margin-bottom: 5px;
+  }
+  
+  .pendidikan, .riwayat-pekerjaan, .skill {
+    margin-top: 20px;
+  }
+  
+  .pendidikan h2, .riwayat-pekerjaan h2, .skill h2 {
+    margin-bottom: 10px;
+  }
+  
+  .pendidikan ul, .riwayat-pekerjaan ul, .skill ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pendidikan ul li, .riwayat-pekerjaan ul li, .skill ul li {
+    margin-bottom: 5px;
+  }
+  
