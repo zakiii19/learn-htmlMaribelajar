@@ -1,8 +1,10 @@
-const nikElement = document.getElementById("nik");
-const namaElement = document.getElementById("nama");
-const ttlElement = document.getElementById("ttl");
-
-// Masukkan data diri Anda di sini
-nikElement.textContent = "12";
-namaElement.textContent = "Budi Santoso";
-ttlElement.textContent = "Yogyakarta, 1 Januari 1990";
+$(document).ready(function() {
+    const nikElement = $("#nik");
+    const namaElement = $("#nama");
+    const ttlElement = $("#ttl");
+  
+    nikElement.text("12097622555");
+    namaElement.text("Qolbul Muzaki");
+    ttlElement.text("Semarang, 19 September 2000");
+  });
+  
